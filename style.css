@@ -1,0 +1,29 @@
+.grid {
+  width: 200px;
+  heigh: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+}
+
+/* so in the grid of 200px there are 10 boxes/divs of 20px each */
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  background-color: #00b300;
+}
+
+.apple {
+  background-color: #e60000;
+}
+
+.start {
+  font-size: 20px;
+}
+
+.score {
+  font-size: 20px;
+}
